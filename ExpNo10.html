@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-
+    Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+    crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-
+    OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+    <title>Megaplay Registration</title>
+    </head>
+    <body>
+    <center><h1>Christmas Megaplay Registration Form</h1></center><br><br>
+    <form action="/form" method="post">
+    <label for="name">Name: </label>
+    <input type="text" name="name" id="name">
+    <br><br>
+    <label for="reg">RegNo: </label>
+    <input type="text" name="reg" id="reg">
+    <br><br>
+    <label for="year">Year of Study: </label>
+    <input type="text" name="year" id="year">
+    <br><br>
+    <label for="dept">Department: </label>
+    <select name="dept">
+    <option value="CSE">CSE</option>
+    <option value="ECE">ECE</option>
+    <option value="EEE">EEE</option>
+    <option value="Media">Media</option>
+    <option value="Mechanical">Mechanical</option>
+    <option value="Agriculture">Agriculture</option>
+    </select>
+    <br><br>
+    <label for="school">School: </label>
+    <select name="school">
+    <option value="School of Engineering">School of Engineering</option>
+    <option value="School of Agriculture and Biosciences">School of Agriculture and Biosciences</option>
+    <option value="School of Management Studies">School of Management Studies</option>
+    </select>
+    <br><br>
+    <label for="event">Type of Event: </label><br><br>
+    <input type="checkbox" name="event" value="Musician"> Musician<br>
+    <input type="checkbox" name="event" value="Singing"> Singing<br>
+    <input type="checkbox" name="event" value="Choreography"> Choreography<br>
+    <input type="checkbox" name="event" value="Backstage"> Backstage<br>
+    <input type="checkbox" name="event" value="Finance"> Finance<br>
+    <input type="checkbox" name="event" value="Purchase"> Purchase<br>
+    <input type="checkbox" name="event" value="Volunteer"> Volunteer<br>
+    <br><br>
+    <center><button type="submit">Submit</button></center>
+    <br>
+    </form>
+    <br><br>
+</body>
+</html>
